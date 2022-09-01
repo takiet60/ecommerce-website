@@ -1,7 +1,9 @@
+import Home from "./wrapper/Home/Home";
+
 function App() {
   return (
     <main>
-      <h1>Hello React</h1>
+      <Home />
     </main>
   );
 }

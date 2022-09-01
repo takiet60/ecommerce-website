@@ -1,0 +1,18 @@
+.icon {
+    background-color: transparent;
+    color: var(--clr-neutral-400);
+
+    &--small {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    &--large {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    &:hover {
+        color: var(--clr-neutral-900);
+    }
+}

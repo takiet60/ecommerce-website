@@ -1,0 +1,51 @@
+@use '../../styles/abstracts/'as *;
+
+.header {
+
+    box-shadow: var(--shadow-lg);
+
+    position: relative;
+
+    &__left {
+        order: 1;
+    }
+
+    &--right {
+        display: flex;
+        position: absolute;
+        right: .5rem;
+        top: .5rem;
+        gap: 1rem;
+    }
+
+    &__navigation {
+        display: none;
+
+    }
+}
+
+@include mq(medium) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+        &--middle {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        &--right {
+            position: relative;
+        }
+
+        &__navigation {
+            display: flex;
+            justify-content: space-around;
+            gap: 1rem;
+        }
+    }
+}

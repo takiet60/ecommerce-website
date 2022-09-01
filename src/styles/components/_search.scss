@@ -1,0 +1,29 @@
+.search {
+    &__container {
+        display: flex;
+        gap: .25rem;
+        border: 1px solid var(--clr-neutral-900);
+        padding: .25rem .5rem;
+        border-radius: 20px;
+        min-width: 20rem;
+    }
+
+    &__icon {
+        background-color: transparent;
+        color: var(--clr-neutral-900);
+        border: none;
+        outline: none;
+
+        >img {
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+
+    &__input {
+        font-size: 1rem;
+        color: var(--clr-neutral-900);
+        outline: none;
+        border: none;
+    }
+}
