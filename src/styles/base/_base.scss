@@ -1,0 +1,20 @@
+@use '../abstracts/'as *;
+
+
+.section {
+    padding: 2.5rem 0;
+    width: 90%;
+
+    &--fill {
+        background-color: var(--clr-neutral-50);
+    }
+}
+
+@include mq(medium) {
+
+
+    .section {
+        padding: 5rem 0;
+        width: 100%;
+    }
+}

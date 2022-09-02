@@ -65,6 +65,19 @@ strong {
     font-weight: normal;
 }
 
+.line-through {
+    text-decoration: line-through;
+    font-size: var(--fs-300);
+    font-weight: 400;
+    color: var(--clr-neutral-400);
+}
+
+.bold {
+    font-weight: 500;
+    font-size: var(--fs-400);
+    color: var(--clr-neutral-800);
+}
+
 a {
     font-size: var(--fs-300);
     color: var(--clr-neutral-400);

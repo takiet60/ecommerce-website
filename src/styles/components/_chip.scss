@@ -1,0 +1,14 @@
+.chip {
+    padding: .125rem .25rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+
+    &--error {
+        background-color: var(--clr-red-50);
+        color: var(--clr-red-500);
+    }
+
+    &--small {
+        font-size: var(--fs-300);
+    }
+}

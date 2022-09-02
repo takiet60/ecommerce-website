@@ -1,0 +1,57 @@
+.card {
+    width: 100%;
+    max-width: 200px;
+    padding: 1rem;
+    background-color: var(--clr-white-0);
+    border-radius: 10px;
+
+    &:hover {
+        box-shadow: var(--shadow-xl);
+        cursor: pointer;
+    }
+
+    >* {
+        margin-bottom: 1rem;
+    }
+
+    &__header {
+        position: relative;
+        width: 100%;
+
+        >img {
+            width: 100%;
+        }
+    }
+
+    &__icon>svg {
+        background-color: var(--clr-neutral-50);
+        box-shadow: var(--shadow-lg);
+        padding: .25rem;
+        border-radius: 50%;
+        font-size: var(--fs-600);
+        color: var(--clr-neutral-900);
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+
+        &:hover {
+            color: var(--clr-red-500);
+            cursor: pointer;
+
+        }
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__rate {
+        display: flex;
+        align-items: center;
+        gap: .125rem;
+    }
+
+
+}

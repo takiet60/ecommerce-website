@@ -1,18 +1,19 @@
 .icon {
     background-color: transparent;
-    color: var(--clr-neutral-400);
 
     &--small {
-        width: 1rem;
-        height: 1rem;
+        font-size: var(--300);
     }
 
     &--large {
-        width: 1.5rem;
-        height: 1.5rem;
+        font-size: var(--400);
     }
 
     &:hover {
         color: var(--clr-neutral-900);
+    }
+
+    &--yellow {
+        color: var(--clr-yellow-500);
     }
 }
