@@ -4,9 +4,21 @@
 .section {
     padding: 2.5rem 0;
     width: 90%;
+    margin: 0 auto;
 
     &--fill {
         background-color: var(--clr-neutral-50);
+        width: 100%;
+
+    }
+
+    &__header {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    &__description {
+        text-align: center;
     }
 }
 

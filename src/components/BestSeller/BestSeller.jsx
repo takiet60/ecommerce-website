@@ -18,8 +18,8 @@ const BestSeller = () => {
         <section id="best-seller" className='section'>
             <div className="container">
                 <div className="best-seller--left">
-                    <h4>Best seller</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ad inventore quia aliquid accusamus esse vero magnam quos suscipit ipsam?</p>
+                    <h4 className='section__header'>Best seller</h4>
+                    <p class="text-small section__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ad inventore quia aliquid accusamus esse vero magnam quos suscipit ipsam?</p>
                 </div>
                 <div className="best-seller--right">
                     <Swiper
